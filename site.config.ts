@@ -17,7 +17,7 @@ export default siteConfig({
   description: 'Notion Blog Test',
 
   // social usernames (optional)
-  twitter: 'Zhoie',
+  twitter: 'iZhoie',
   github: 'Zhoie',
   linkedin: '',
   // newsletter: '#', // optional newsletter URL
