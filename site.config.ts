@@ -9,7 +9,7 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Blog',
+  name: 'Zhoie',
   domain: 'https://www.notion.so/Blog-0985dddf3e7b4eae9b64ddb798787eec',
   author: 'Zhoie',
 
