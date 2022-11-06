@@ -83,8 +83,6 @@ export const NotionPageHeader: React.FC<{
           {isSearchEnabled && <Search block={block} title={null} />}
         </div>
       </div>
-      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4947882264558141"
-     crossorigin="anonymous"></script>
     </header>
   )
 }
