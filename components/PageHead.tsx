@@ -1,6 +1,5 @@
 import * as React from 'react'
 import Head from 'next/head'
-import Script from 'next/Script'
 
 import * as config from '@/lib/config'
 import * as types from '@/lib/types'
@@ -23,13 +22,7 @@ export const PageHead: React.FC<
 
   return (
     <Head>
-         <Script
-        id="Adsense-id"
-        data-ad-client="ca-pub-4947882264558141"
-        async="true"
-        strategy="beforeInteractive"
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
-      />
+        
       <meta charSet='utf-8' />
       <meta httpEquiv='Content-Type' content='text/html; charset=utf-8' />
       <meta
@@ -87,6 +80,8 @@ export const PageHead: React.FC<
       <meta property='og:title' content={title} />
       <meta name='twitter:title' content={title} />
       <title>{title}</title>
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4947882264558141"
+     crossorigin="anonymous"></script>
     </Head>
   )
 }
