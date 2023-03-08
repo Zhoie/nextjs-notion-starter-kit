@@ -22,13 +22,8 @@ export const PageHead: React.FC<
 
   return (
     <Head>
-         <Script
-        id="Adsense-id"
-        data-ad-client="ca-pub-4947882264558141"
-        async="true"
-        strategy="beforeInteractive"
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
-      />
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4947882264558141"
+     crossorigin="anonymous"></script>
       <meta charSet='utf-8' />
       <meta httpEquiv='Content-Type' content='text/html; charset=utf-8' />
       <meta
