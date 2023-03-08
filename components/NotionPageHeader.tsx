@@ -45,15 +45,6 @@ export const NotionPageHeader: React.FC<{
   return (
     <header className='notion-header'>
 
-      <Script
-        id="Adsense-id"
-        data-ad-client="ca-pub-4947882264558141"
-        async="true"
-        strategy="beforeInteractive"
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
-      />
-
-
       <div className='notion-nav-header'>
         <Breadcrumbs block={block} rootOnly={true} />
 
