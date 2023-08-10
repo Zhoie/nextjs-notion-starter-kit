@@ -10,7 +10,7 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'Zhoie',
-  domain: 'https://www.notion.so/Blog-0985dddf3e7b4eae9b64ddb798787eec',
+  domain: 'https://iouzo.notion.site/ZHOIE-e2267179b53e46f895e276bf55156bea?pvs=4',
   author: 'Zhoie',
 
   // open graph metadata (optional)
